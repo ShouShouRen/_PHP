@@ -25,3 +25,24 @@ function UpdateTable()
         die("error");
     }
 }
+
+function CreateUsers()
+{
+    global $connection;
+    extract($_POST);
+    $query = "INSERT INTO users(username,password) VALUES ('$username','$password')";
+    $result = mysqli_query($connection, $query);
+    if (!$result) {
+        die("Query Failed");
+    }
+}
+function DeleteRows()
+{
+    global $connection;
+    extract($_POST);
+    $query = "DELETE FROM users WHERE id = $id";
+    $result = mysqli_query($connection, $query);
+    if (!$result) {
+        die("Query Failed");
+    }
+}

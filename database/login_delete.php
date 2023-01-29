@@ -1,8 +1,8 @@
 <?php
 include("db.php");
 include("function.php");
-if (isset($_POST["submit"])) {
-    CreateUsers();
+if (isset($_POST['delete'])) {
+    DeleteRows();
 }
 ?>
 <!DOCTYPE html>
@@ -19,7 +19,7 @@ if (isset($_POST["submit"])) {
 <body>
     <div class="container">
         <div class="col-sm-6">
-            <form action="login_create.php" method="post">
+            <form action="login_delete.php" method="post">
                 <div class="form-group">
                     <label for="username">Username</label>
                     <input type="text" class="form-control" name="username" id="username">
@@ -28,7 +28,14 @@ if (isset($_POST["submit"])) {
                     <label for="password">Password</label>
                     <input type="password" class="form-control" name="password" id="password">
                 </div>
-                <input type="submit" value="submit" name="submit" class="btn btn-primary my-1">
+                <div class="form-group">
+                    <select name="id" id="">
+                        <?php
+                        showAllData();
+                        ?>
+                    </select>
+                </div>
+                <input type="submit" value="delete" name="delete" class="btn btn-primary my-1">
             </form>
         </div>
     </div>
