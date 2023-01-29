@@ -1,13 +1,8 @@
 <?php
 include("db.php");
 include("function.php");
-
 if (isset($_POST['update'])) {
-    $query = "UPDATE users SET username = '$username',password = '$password' WHERE id = $id";
-    $result = mysqli_query($connection,$query);
-    if(!$result){
-        die("error");
-    }
+    UpdateTable();
 }
 ?>
 <!DOCTYPE html>

@@ -1,7 +1,4 @@
 <?php
-
-use LDAP\Result;
-
 extract($_POST);
 if (isset($_POST["submit"])) {
     // echo "yes we got it";
