@@ -48,7 +48,8 @@
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b
+                            class="caret"></b></a>
                     <ul class="dropdown-menu message-dropdown">
                         <li class="message-preview">
                             <a href="#">
@@ -60,7 +61,8 @@
                                         <h5 class="media-heading">
                                             <strong>John Smith</strong>
                                         </h5>
-                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM
+                                        </p>
                                         <p>Lorem ipsum dolor sit amet, consectetur...</p>
                                     </div>
                                 </div>
@@ -76,7 +78,8 @@
                                         <h5 class="media-heading">
                                             <strong>John Smith</strong>
                                         </h5>
-                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM
+                                        </p>
                                         <p>Lorem ipsum dolor sit amet, consectetur...</p>
                                     </div>
                                 </div>
@@ -92,7 +95,8 @@
                                         <h5 class="media-heading">
                                             <strong>John Smith</strong>
                                         </h5>
-                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM
+                                        </p>
                                         <p>Lorem ipsum dolor sit amet, consectetur...</p>
                                     </div>
                                 </div>
@@ -104,7 +108,8 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b
+                            class="caret"></b></a>
                     <ul class="dropdown-menu alert-dropdown">
                         <li>
                             <a href="#">Alert Name <span class="label label-default">Alert Badge</span></a>
@@ -131,7 +136,8 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b
+                            class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
@@ -171,7 +177,8 @@
                         <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
                     </li>
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i
+                                class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
                                 <a href="#">Dropdown Item</a>
@@ -205,7 +212,7 @@
                         </h1>
                         <ol class="breadcrumb">
                             <li>
-                                <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                                <i class="fa fa-dashboard"></i> <a href="index.html">Dashboard</a>
                             </li>
                             <li class="active">
                                 <i class="fa fa-file"></i> Blank Page
