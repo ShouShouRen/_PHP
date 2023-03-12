@@ -25,7 +25,7 @@ include("./includes/navigation.php");
                     $post_date = $row['post_date'];
                     $post_image = $row['post_image'];
                     $post_content = $row['post_content'];
-?>
+            ?>
 
 
             <h1 class="page-header">
